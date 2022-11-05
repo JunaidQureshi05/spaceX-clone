@@ -160,6 +160,14 @@ animation-fill-mode:both; //Stop from showing at start
   transform:translateY(0)
 }
 
+.scroll-arrow  { 
+  position:absolute;
+  bottom:50px;
+  left:50%;
+  transform:translateX(-50%);
+  animation:fadeBounce 5s infinite;
+}
+
 
 /* Animations */
 
@@ -173,4 +181,15 @@ animation-fill-mode:both; //Stop from showing at start
   opacity:1;
   transform:translateY(0);
 }
+}
+
+@keyframes fadeBounce { 
+  0%,20%,50%,80%,100% { 
+    opacity:0;
+    transform:translateY(-20px);
+  }
+  40% { 
+    opacity:1;
+   transform:translate(0);
+  } 
 }
