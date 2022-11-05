@@ -258,6 +258,9 @@ footer ul li a:hover{
   transform:rotate(-45deg) translateY(6px) translateX(-6px) ;
 }
 
+.stop-scrolling { 
+  overflow:hidden;
+}
 
 /* Overlay show */
 .overlay-show { 
