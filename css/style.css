@@ -33,7 +33,7 @@ ul {
   align-items:center;
   text-transform:uppercase;
   height:100px;
-  padding:0 30px;
+  padding-left:150px;
 }
 .logo{
   width:210px;
@@ -180,7 +180,7 @@ animation-fill-mode:both; //Stop from showing at start
   bottom:50px;
   left:50%;
   transform:translateX(-50%);
-  animation:fadeBounce 5s infinite;
+  animation:fadeBounce 3s infinite;
 }
 
 /* Footer */
